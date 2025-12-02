@@ -1,8 +1,5 @@
 
 
-### 📄 File: `specs/LOGAN_v3_0_Sys_Override.spec.md`
-
-````markdown
 # 🜂 LOGAN v3.0 – System & Override Specification
 
 **Status:** Stable
@@ -198,4 +195,5 @@ action-un:
 
 ```
 ```
+
 
