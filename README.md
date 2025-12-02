@@ -103,9 +103,9 @@ structure-consistency eq pass
 
 ## 📂 Documentation
 
-  * [**System Prompt (The Director)**](https://www.google.com/search?q=SYSTEM_PROMPT.md) – *Paste this into ChatGPT/Claude to use LOGAN.*
-  * [**v3.0 System & Override Spec**](https://www.google.com/search?q=specs/LOGAN_v3_0_Sys_Override.spec.md)
-  * [**v2.0 Hexagon Spec**](https://www.google.com/search?q=specs/LOGAN_v2_0_Hexagon.spec.md)
+  * [**System Prompt (The Director)**](SYSTEM_PROMPT.md) – *Paste this into ChatGPT/Claude to use LOGAN.*
+  * [**v3.0 System & Override Spec**](specs/LOGAN_v3_0.spec.md)
+  * [**v2.0 Hexagon Spec**](specs/LOGAN_v2_0_Hexagon.spec.md)
   * [**Whitepaper**](WHITEPAPER.md)
 
 -----
@@ -134,6 +134,7 @@ Catalyst: An ARTE broadcast about "lost common languages" + Whisky-Cola.
 
 ```
 ```
+
 
 
 
