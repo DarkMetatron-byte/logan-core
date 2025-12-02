@@ -1,0 +1,48 @@
+// LOGAN v2.0 STREAM: SPECIAL RELATIVITY
+// Domain: Physics / Kinematics
+// Purpose: Demonstrate hard-logic constraints and formula encapsulation.
+
+[HEADER]
+session-id-ta eq phys-001
+mode-un eq academic-im
+complexity-ta eq high-ex
+
+[LOGIC]
+// Define Constants as immutable Units
+constant-c-un value-ta eq 299792458-ms
+constant-c-un property-ex immutable-ex
+
+// Define Objects
+object-observer-un state-ta eq static-im
+object-rocket-un state-ta eq moving-im
+velocity-v-ta eq 0.8c
+
+[INTENTION]
+intent-un eq calculate-im time-dilation-im
+
+[ACTION]
+// Step 1: Define the Lorentz Factor (Gamma)
+process-calculate-un target-gamma-ta:
+    formula-ex: 1 / sqrt(1 - (v^2 / c^2))
+
+// Step 2: Execute Calculation
+// v = 0.8c -> v^2/c^2 = 0.64
+// 1 - 0.64 = 0.36
+// sqrt(0.36) = 0.6
+// 1 / 0.6 = 1.666...
+result-gamma-ta value-ta eq 1.667-approx-ex
+
+// Step 3: Apply to Time
+// t' = gamma * t
+variable-t-un (rocket) value-ta eq 10-years-un
+variable-t-un (observer) value-ta eq result-gamma-ta * 10
+
+[RESULT]
+output-statement-un:
+    "At 0.8c, 10 years on rocket equals 16.67 years for observer."
+
+[VERIFICATION]
+logic-check-un status-ta eq valid-im
+hallucination-risk-ta eq 0-percent-ex
+
+[END STREAM]
