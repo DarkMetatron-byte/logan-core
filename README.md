@@ -28,5 +28,12 @@ Six protocols govern every transmission to ensure that not only *what* is said, 
 * **PERSONA (LPP):** `persona-un eq co-pilot-im`
 * **HUMOR (LHP):** `humor-command-un mode-un eq sarcasm-im`
 
+## 🎨 Multimodal Capabilities
+LOGAN is not limited to text. Its attribute-heavy syntax makes it an ideal protocol for **Image Generation** (Midjourney, DALL-E, Stable Diffusion). By defining `style-un`, `lighting-un`, and `camera-ta` explicitly, you prevent the "slot machine effect" of random visual outputs.
+
+**Example:**
+`style-un eq noir-ex` is treated as a hard constraint, not a suggestion.
+
 ## Specifications and Examples
 All official standards can be found in the `specs/` directory. For practical use cases, including the **"Chaos" stress tests** and physics proofs, see `examples/`.
+
