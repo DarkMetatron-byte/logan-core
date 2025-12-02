@@ -9,7 +9,8 @@
 
 ![Static Badge](https://img.shields.io/badge/LOGAN-v3.0_Stable-blueviolet) 
 ![Static Badge](https://img.shields.io/badge/License-MIT-green) 
-![Status](https://img.shields.io/badge/Protocol-Deterministic-blue)
+<img alt="Static Badge" src="https://img.shields.io/badge/License-MIT-green">
+
 
 **LOGAN** is a strictly typed, position-dependent **Controlled Natural Language (CNL)** designed for loss-less information transfer between Humans and Large Language Models (LLMs).
 
@@ -134,6 +135,7 @@ Catalyst: An ARTE broadcast about "lost common languages" + Whisky-Cola.
 
 ```
 ```
+
 
 
 
