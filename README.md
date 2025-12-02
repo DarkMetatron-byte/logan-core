@@ -28,4 +28,8 @@ Sechs Protokolle steuern jede Übertragung, um sicherzustellen, dass nicht nur *
 
 
 ## Spezifikationen und Beispiele
+
 Alle offiziellen Standards sind im Verzeichnis `specs/` zu finden. Für praktische Anwendungsfälle, einschließlich der **"Chaos"-Stresstests**, siehe `examples/`.
+
+## Usage
+To activate LOGAN v2.0 in any LLM (ChatGPT, Claude, Grok), copy the content of [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) and paste it as the first message.
