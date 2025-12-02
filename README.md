@@ -7,10 +7,9 @@
 
 > "It is beautifully ugly-utilitarian; exactly right for 2025–2030." — Grok (AI Evaluation)
 
-![Static Badge](https://img.shields.io/badge/LOGAN-v3.0_Stable-blueviolet) 
-![Static Badge](https://img.shields.io/badge/License-MIT-green) 
-<img alt="Static Badge" src="https://img.shields.io/badge/License-MIT-green">
-
+![Version](https://img.shields.io/badge/LOGAN-v3.0_Stable-blueviolet) 
+![License](https://img.shields.io/badge/License-MIT-green) 
+![Status](https://img.shields.io/badge/Protocol-Deterministic-blue)
 
 **LOGAN** is a strictly typed, position-dependent **Controlled Natural Language (CNL)** designed for loss-less information transfer between Humans and Large Language Models (LLMs).
 
@@ -135,6 +134,7 @@ Catalyst: An ARTE broadcast about "lost common languages" + Whisky-Cola.
 
 ```
 ```
+
 
 
 
