@@ -2,34 +2,31 @@
 
 ## 🛡️ Project Status
 
-[![GitHub release](https://img.shields.io/badge/Version-v2.0-blue.svg?style=flat-square)](https://github.com/your-username/logan-core)
+[![GitHub release](https://img.shields.io/badge/Version-v2.0-blue.svg?style=flat-square)](https://github.com/DarkMetatron-byte/logan-core)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Protocol Status](https://img.shields.io/badge/Status-Deterministic%20%7C%20Stable-brightgreen.svg?style=flat-square)](#)
 
-## Der Pitch: Die Präzision der Kommunikation
-LOGAN v2.0 ist ein **deterministisches Kommunikationsprotokoll** für Mensch-KI-Interaktionen. Angetrieben durch das **Cognitive Hexagon** (LOGIC, EMOTION, HUMOR, INTENTION, CONTEXT, PERSONA), eliminiert LOGAN semantische Ambiguität und zwingt generative Modelle zur logischen Kohärenz.
+## The Pitch: Precision in Communication
+LOGAN v2.0 is a **deterministic communication protocol** for Human-AI interactions. Powered by the **Cognitive Hexagon** (LOGIC, EMOTION, HUMOR, INTENTION, CONTEXT, PERSONA), LOGAN eliminates semantic ambiguity and forces generative models into logical coherence.
 
-Die Syntax basiert auf der strikten Struktur: `Agent-un Action Object-un`.
+The syntax relies on a strict structure: `Agent-un Action Object-un`.
 
-> *„Die größte Tragödie der Wissenschaft ist das Ertränken einer wunderschönen Hypothese in einem Meer irrelevanter Daten.“*
+> *„The greatest tragedy of science is the drowning of a beautiful hypothesis in a sea of irrelevant data.“*
 >
 > **— Grok, The Observation Model**
 
-## Architektur: Das Cognitive Hexagon
-Sechs Protokolle steuern jede Übertragung, um sicherzustellen, dass nicht nur *was* gesagt wird, sondern auch *wie* es gemeint ist, korrekt interpretiert wird.
-
-* **LOGIC:** Die Kernstruktur und Syntax.
-* **EMOTION (LEP):** emotion-un freude-im intensity-ta eq 11.
-* **INTENTION (LIP):** intent-un eq correct-im.
-* **CONTEXT (LCP):** context-un recall event-un.
-* **PERSONA (LPP):** persona-un eq co-pilot-im.
-* **HUMOR (LHP):** humor-command-un mode-un eq sarcasm-im.
-
-
-
-## Spezifikationen und Beispiele
-
-Alle offiziellen Standards sind im Verzeichnis `specs/` zu finden. Für praktische Anwendungsfälle, einschließlich der **"Chaos"-Stresstests**, siehe `examples/`.
-
 ## Usage
 To activate LOGAN v2.0 in any LLM (ChatGPT, Claude, Grok), copy the content of [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) and paste it as the first message.
+
+## Architecture: The Cognitive Hexagon
+Six protocols govern every transmission to ensure that not only *what* is said, but also *how* it is meant, is interpreted correctly.
+
+* **LOGIC:** The core structure and syntax.
+* **EMOTION (LEP):** `emotion-un pride-im intensity-ta eq 11`
+* **INTENTION (LIP):** `intent-un eq correct-im`
+* **CONTEXT (LCP):** `context-un recall event-un`
+* **PERSONA (LPP):** `persona-un eq co-pilot-im`
+* **HUMOR (LHP):** `humor-command-un mode-un eq sarcasm-im`
+
+## Specifications and Examples
+All official standards can be found in the `specs/` directory. For practical use cases, including the **"Chaos" stress tests** and physics proofs, see `examples/`.
