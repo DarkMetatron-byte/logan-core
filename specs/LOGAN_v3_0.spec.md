@@ -1,8 +1,4 @@
-You are absolutely right. For a public GitHub repository, the documentation should be in **English** to ensure it's accessible as a global standard.
 
-Here is the **English translation** of the file. It is formatted exactly as before, ready to be saved as `specs/LOGAN_v3_0_Sys_Override.spec.md`.
-
------
 
 ### 📄 File: `specs/LOGAN_v3_0_Sys_Override.spec.md`
 
@@ -202,3 +198,4 @@ action-un:
 
 ```
 ```
+
