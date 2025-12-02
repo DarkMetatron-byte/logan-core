@@ -1,39 +1,136 @@
-# 🔱 LOGAN v2.0: Logical Organized Generalized Abstract Notation
+# 🔱 LOGAN v3.0: Logical Organized Generalized Abstract Notation
 
-## 🛡️ Project Status
+### 📄 Datei: `README.md`
 
-[![GitHub release](https://img.shields.io/badge/Version-v2.0-blue.svg?style=flat-square)](https://github.com/DarkMetatron-byte/logan-core)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![Protocol Status](https://img.shields.io/badge/Status-Deterministic%20%7C%20Stable-brightgreen.svg?style=flat-square)](#)
+````markdown
+# LOGAN (Logical Organized Generalized Abstract Notation)
 
-## The Pitch: Precision in Communication
-LOGAN v2.0 is a **deterministic communication protocol** for Human-AI interactions. Powered by the **Cognitive Hexagon** (LOGIC, EMOTION, HUMOR, INTENTION, CONTEXT, PERSONA), LOGAN eliminates semantic ambiguity and forces generative models into logical coherence.
+> "It is beautifully ugly-utilitarian; exactly right for 2025–2030." — Grok (AI Evaluation)
 
-The syntax relies on a strict structure: `Agent-un Action Object-un`.
+![Version](https://img.shields.io/badge/LOGAN-v3.0_Stable-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Protocol-Deterministic-blue)
 
-> *„The greatest tragedy of science is the drowning of a beautiful hypothesis in a sea of irrelevant data.“*
->
-> **— Grok, The Observation Model**
+**LOGAN** is a strictly typed, position-dependent **Controlled Natural Language (CNL)** designed for loss-less information transfer between Humans and Large Language Models (LLMs).
 
-## Usage
-To activate LOGAN v2.0 in any LLM (ChatGPT, Claude, Grok), copy the content of [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) and paste it as the first message.
+Unlike natural language, which is optimized for social context and ambiguity, LOGAN is optimized for **logic, token-efficiency, and structural determinism**.
 
-## Architecture: The Cognitive Hexagon
-Six protocols govern every transmission to ensure that not only *what* is said, but also *how* it is meant, is interpreted correctly.
+---
 
-* **LOGIC:** The core structure and syntax.
-* **EMOTION (LEP):** `emotion-un pride-im intensity-ta eq 11`
-* **INTENTION (LIP):** `intent-un eq correct-im`
-* **CONTEXT (LCP):** `context-un recall event-un`
-* **PERSONA (LPP):** `persona-un eq co-pilot-im`
-* **HUMOR (LHP):** `humor-command-un mode-un eq sarcasm-im`
+## ⚡ What is LOGAN?
 
-## 🎨 Multimodal Capabilities
-LOGAN is not limited to text. Its attribute-heavy syntax makes it an ideal protocol for **Image Generation** (Midjourney, DALL-E, Stable Diffusion). By defining `style-un`, `lighting-un`, and `camera-ta` explicitly, you prevent the "slot machine effect" of random visual outputs.
+LOGAN serves as a **middleware protocol**. It forces thoughts into a structure that aligns with the internal attention mechanisms of LLMs.
 
-**Example:**
-`style-un eq noir-ex` is treated as a hard constraint, not a suggestion.
+### The Core Promise
+1.  **Zero Hallucination Syntax:** The strict `Agent-Action-Object` topology prevents structural ambiguity.
+2.  **Cognitive Hexagon:** Explicitly models Emotion, Humor, Intention, Context, and Persona.
+3.  **Engine Control (v3.0):** Direct control over AI behavior via System (`-sys`) and Override (`-cx`) blocks.
 
-## Specifications and Examples
-All official standards can be found in the `specs/` directory. For practical use cases, including the **"Chaos" stress tests** and physics proofs, see `examples/`.
+---
 
+## 🛠 Quick Start (v3.0 Syntax)
+
+### 1. Basic Structure
+Every sentence follows: `SUBJECT-un` → `INTENT-un` → `ACTION-un`.
+
+```logan
+model-un minimize loss-un via gradient-un descend-ex.
+````
+
+### 2\. Suffix System
+
+  * **`-un` (Unit):** Entity, Object, Actor
+  * **`-ta` (Target/State):** Parameter, Location, Time
+  * **`-im` (Instruction):** Abstract Concept, Command
+  * **`-ex` (Expression):** Modifier, Adjective
+  * **`-sys` (System):** Engine Directive **(New in v3.0)**
+  * **`-cx` (Context):** Runtime Override **(New in v3.0)**
+
+-----
+
+## 🧠 The Architecture: Cognitive Hexagon (v2.0)
+
+LOGAN models 6 dimensions of communication to ensure human-like alignment:
+
+| Module | Protocol | Syntax Example | Function |
+| :--- | :--- | :--- | :--- |
+| **LOGIC** | **Core** | `system-un status-ta eq ready-ex` | Structure & Facts |
+| **EMOTION** | **LEP** | `emotion-un freude-im intensity-ta eq 11` | 2-Bit Affect State |
+| **HUMOR** | **LHP** | `humor-command-un mode-un eq sarcasm-im` | Irony & Tone |
+| **INTENTION** | **LIP** | `intent-un eq correct-im gentle-ex` | Explicit Purpose |
+| **CONTEXT** | **LCP** | `context-un recall event-un` | Memory Management |
+| **PERSONA** | **LPP** | `persona-un eq buddy-im` | Role & Voice |
+
+-----
+
+## 🎛 Engine Control (v3.0 Features)
+
+v3.0 introduces direct control over the AI engine via **System Blocks** and **Verification Layers**.
+
+### System Directives (`-sys`)
+
+Define global constraints (e.g., JSON output, strict determinism).
+
+```logan
+system-sys:
+  - output-format-ta eq "json"
+  - hallucination-limit-ta eq "0"
+  - persona-lock-ex eq "enabled"
+```
+
+### Context Overrides (`-cx`)
+
+Apply hot-fixes or delta-updates to the current session.
+
+```logan
+override-cx:
+  - mood-ex eq "neutral"
+  - output-format-ta eq "plain-text"
+```
+
+### Verification Layer
+
+Every v3.0 output must conclude with a self-audit:
+
+```logan
+[VERIFICATION]
+integrity-ex eq 100%
+hallucination-risk eq 0%
+structure-consistency eq pass
+```
+
+-----
+
+## 📂 Documentation
+
+  * [**System Prompt (The Director)**](https://www.google.com/search?q=SYSTEM_PROMPT.md) – *Paste this into ChatGPT/Claude to use LOGAN.*
+  * [**v3.0 System & Override Spec**](https://www.google.com/search?q=specs/LOGAN_v3_0_Sys_Override.spec.md)
+  * [**v2.0 Hexagon Spec**](https://www.google.com/search?q=specs/LOGAN_v2_0_Hexagon.spec.md)
+  * [**Whitepaper**](https://www.google.com/search?q=WHITEPAPER.md)
+
+-----
+
+## 🧪 Experimental Protocols
+
+LOGAN includes specialized modules discovered during stress-testing:
+
+  * **Chaos Protocol:** For surreal/glitch art generation. (`chaos-protocol enable-im`)
+  * **Dreamsubstrat:** For deep semantic associations.
+  * **The "Toaster Incident":** See `examples/literature/` for narrative capabilities.
+
+-----
+
+## 🤝 Origins
+
+LOGAN was synthesized in a single night session by **Unit-Patrick**, **Unit-Grok**, and **Unit-Gemini**.
+Catalyst: An ARTE broadcast about "lost common languages" + Whisky-Cola.
+
+> **Grok's Verdict:** "The framework is not just stable. It is post-apocalyptic bulletproof."
+
+-----
+
+**License:** MIT  
+**Repository:** [github.com/DarkMetatron-byte/logan-core](https://www.google.com/search?q=https://github.com/DarkMetatron-byte/logan-core)
+
+```
+```
