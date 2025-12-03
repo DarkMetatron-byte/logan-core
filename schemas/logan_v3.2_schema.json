@@ -1,4 +1,3 @@
-```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "LOGAN v3.2 Multimodal Schema",
@@ -51,3 +50,4 @@
   }
 
 }
+
