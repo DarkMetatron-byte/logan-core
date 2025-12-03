@@ -1,13 +1,3 @@
-5. Compatibility
-LOGAN v3.2 is designed to be interpreted by:
-
-Text LLMs (parsing logic & story).
-
-Image Generators (receiving prompt-engineered output from the LLM based on the [IMAGE-LAYER]).
-
-### 2️⃣ Datei: `schema/logan_v3.2_schema.json`
-*Änderungen: Keine inhaltlichen Änderungen nötig, da JSON englische Keys verwendet. Ich habe es nur formatiert.*
-
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
@@ -59,4 +49,5 @@ Image Generators (receiving prompt-engineered output from the LLM based on the [
       }
     }
   }
+
 }
