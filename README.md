@@ -1,4 +1,26 @@
-# 🔱 LOGAN v3.0: Logical Organized Generalized Abstract Notation
+# 🔱 LOGAN v3.2: Logical Organized Generalized Abstract Notation
+
+## 🎨 LOGAN v3.2: Multimodal Extension
+
+**Status:** Draft Specification
+**Focus:** Visual Storytelling, Comics, & Image Generation Pipelines
+
+Starting with **Version 3.2**, LOGAN expands beyond pure text interaction into a declarative protocol for multimodal content. It separates the *content* of a scene from its *visual rendering style*, allowing LLMs to act as directors for image generation models.
+
+### Key Features
+* **Layered Architecture:** Separates `[TEXT-LAYER]` (Dialog/Story) from `[IMAGE-LAYER]` (Render style/Camera).
+* **Scene Graph:** Structured definition of panels, characters, and layouts using `-op` (Collection) and `-un` (Unit) suffixes.
+* **Platform Agnostic:** Designed to sit between an LLM (the "Director") and an Image Generator (the "Camera").
+
+### New Files in v3.2
+| File | Description |
+| :--- | :--- |
+| [`spec/LOGAN_v3.2.md`](spec/LOGAN_v3.2.md) | **The Core Spec.** Full definition of the multimodal layers and syntax rules. |
+| [`schema/logan_v3.2_schema.json`](schema/logan_v3.2_schema.json) | **JSON Schema.** A mapping file for validation tools and UI integration. |
+| [`examples/caveman_rock_bonk_wars.logan`](examples/caveman_rock_bonk_wars.logan) | **Demo.** A complete 4-panel comic script demonstrating complex scene composition. |
+| [`examples/caveman_rock_bonk_wars_sd_prompt.txt`](examples/caveman_rock_bonk_wars_sd_prompt.txt) | **Output.** Example of how a LOGAN script translates into a natural language prompt for Stable Diffusion/Midjourney. |
+
+> *"LOGAN v3.2 turns the LLM from a chatbot into a creative director."*
 
 ### 📄 Datei: `README.md`
 
@@ -130,6 +152,7 @@ Catalyst: An ARTE broadcast about "lost common languages" + Whisky-Cola.
 
 ```
 ```
+
 
 
 
