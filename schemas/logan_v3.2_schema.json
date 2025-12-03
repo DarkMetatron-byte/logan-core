@@ -1,0 +1,62 @@
+5. Compatibility
+LOGAN v3.2 is designed to be interpreted by:
+
+Text LLMs (parsing logic & story).
+
+Image Generators (receiving prompt-engineered output from the LLM based on the [IMAGE-LAYER]).
+
+### 2️⃣ Datei: `schema/logan_v3.2_schema.json`
+*Änderungen: Keine inhaltlichen Änderungen nötig, da JSON englische Keys verwendet. Ich habe es nur formatiert.*
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LOGAN v3.2 Multimodal Schema",
+  "description": "Validation schema for LOGAN v3.2 tooling and UI parsers",
+  "type": "object",
+  "properties": {
+    "header": {
+      "type": "object",
+      "properties": {
+        "loganVersion": { "type": "string" },
+        "sessionId": { "type": "string" },
+        "intent": { "type": "string" },
+        "mode": { "type": "string" }
+      },
+      "required": ["loganVersion", "intent"]
+    },
+    "sceneLayer": {
+      "type": "object",
+      "properties": {
+        "comic": {
+          "type": "object",
+          "properties": {
+            "title": { "type": "string" },
+            "layout": { "type": "string" },
+            "panels": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "integer" },
+                  "setting": { "type": "string" },
+                  "characters": { "type": "array" },
+                  "speech": { "type": "array" }
+                },
+                "required": ["id"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "imageLayer": {
+      "type": "object",
+      "properties": {
+        "style": { "type": "string" },
+        "renderMode": { "type": "string" },
+        "camera": { "type": "string" }
+      }
+    }
+  }
+}
